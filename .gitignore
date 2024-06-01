@@ -1,0 +1,10 @@
+*.svo
+*.png
+__pycache__/
+build/
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+Training/
+Old/

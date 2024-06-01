@@ -1,0 +1,21 @@
+{
+	"name": "Object Detection Devcontainer",
+	"dockerComposeFile": "docker-compose.yml",
+	"service": "backend",
+  	"workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"redhat.vscode-yaml",
+				"ms-azuretools.vscode-docker",
+                "charliermarsh.ruff",
+				"tamasfe.even-better-toml",
+				"ms-python.vscode-pylance",
+				"ms-python.python",
+				"mechatroner.rainbow-csv",
+				"Percy.vscode-pydata-viewer",
+				"eamodio.gitlens"
+			]
+		}
+	}
+}
