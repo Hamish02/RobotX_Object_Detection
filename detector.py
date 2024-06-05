@@ -271,7 +271,7 @@ def main():
             # viewer.updateData(point_cloud_render, objects)
             # 2D rendering
             np.copyto(image_left_ocv, image_left.get_data())
-            cv_viewer.render_2D(image_left_ocv, image_scale, objects, obj_param.enable_tracking)
+            cv_viewer.render_2D(image_left_ocv, image_scale, objects, obj_param.enable_tracking, model_labels)
             
             # print(type(image_scale))
             # global_image = cv2.hconcat([image_left_ocv, image_track_ocv])

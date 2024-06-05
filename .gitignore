@@ -9,3 +9,6 @@ build/
 Training/
 Old/
 runs/
+test_model.py
+test.py
+test.ccp
